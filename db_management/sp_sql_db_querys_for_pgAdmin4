@@ -1,0 +1,46 @@
+--get_airline_by_username--
+---------------------------
+SELECT * FROM get_airline_by_username('el_al');
+---------------------------
+
+
+--get_customer_by_username--
+----------------------------
+SELECT * FROM get_customer_by_username('meyer_steiner')
+
+
+--get_user_by_username--
+------------------------
+SELECT * FROM get_user_by_username('malka_tsimerman');
+------------------------
+
+
+--get_flights_by_parameters--
+-----------------------------
+SELECT * FROM get_flights_by_parameters(1, 2, '2022-3-1 10:30');
+-----------------------------
+
+
+--get_flights_by_airline_id--
+-----------------------------
+SELECT * FROM get_flights_by_airline_id(1);
+-----------------------------
+
+
+--get_arrival_flights--
+-----------------------
+SELECT * FROM get_arrival_flights(2);
+-----------------------
+
+
+--get_departure_flights--
+-------------------------
+SELECT * FROM get_departure_flights(2);
+-------------------------
+
+
+
+--get_tickets_by_customer--
+---------------------------
+SELECT * FROM get_tickets_by_customer(1);
+---------------------------
