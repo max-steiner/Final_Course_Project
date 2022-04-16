@@ -1,0 +1,556 @@
+2022-04-16 13:16:00,332:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:00,404:facade_anonymous:INFO:Login allowed. Administrator: ron_michael
+2022-04-16 13:16:01,202:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:01,209:facade_administrator:INFO:The administrator <<1>> successfully used the function <<get_all_customer>>
+2022-04-16 13:16:02,068:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:02,090:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:02,094:facade_administrator:INFO:Adding a new administrator approved <<3>>. Admin <<1>>
+2022-04-16 13:16:02,876:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:02,891:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:02,894:facade_administrator:INFO:Adding a new administrator approved <<3>>. Admin <<1>>
+2022-04-16 13:16:02,895:facade_administrator:ERROR:Function <<add_administrator>> failed. Admin <<1>>. Invalid class Users
+2022-04-16 13:16:03,662:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:03,668:facade_administrator:ERROR:Function <<add_administrator>> failed. Admin <<1>>. Invalid class Administrators
+2022-04-16 13:16:04,433:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:04,456:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:04,460:facade_administrator:INFO:Adding a new airline approved <<test_air. Admin <<1>>
+2022-04-16 13:16:05,315:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:05,332:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:05,335:facade_administrator:INFO:Adding a new airline approved <<test_air. Admin <<1>>
+2022-04-16 13:16:05,337:facade_administrator:ERROR:Function <<add_airline>> failed. Admin <<1>>. The airline is already registered
+2022-04-16 13:16:06,085:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:06,106:facade_administrator:ERROR:Function <<add_airline>> failed. Admin <<1>>. Invalid country
+2022-04-16 13:16:06,883:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:06,901:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:06,905:facade_administrator:INFO:Adding a new customer approved <<5>>. Admin <<1>>
+2022-04-16 13:16:07,695:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:07,721:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:07,725:facade_administrator:INFO:Adding a new customer approved <<5>>. Admin <<1>>
+2022-04-16 13:16:07,728:facade_administrator:ERROR:Function <<add_customer>> failed. Admin <<1>>. Invalid credit card number
+2022-04-16 13:16:08,529:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:08,549:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:08,552:facade_administrator:INFO:Adding a new administrator approved <<3>>. Admin <<1>>
+2022-04-16 13:16:08,556:facade_administrator:INFO:Removing administrator <<3>> approved. Admin <<1>>
+2022-04-16 13:16:09,308:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:09,318:facade_administrator:ERROR:Function <<remove_administrator>> failed. Admin <<1>>. Administrator with this first name is not registered in the system
+2022-04-16 13:16:10,060:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:10,085:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:10,089:facade_administrator:INFO:Adding a new airline approved <<test_air. Admin <<1>>
+2022-04-16 13:16:10,092:facade_administrator:INFO:Removing airline <<6>> approved. Admin <<1>>
+2022-04-16 13:16:10,975:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:10,988:facade_administrator:ERROR:Function <<remove_airline>> failed. Admin <<1>>. Airline is not registered
+2022-04-16 13:16:10,989:facade_administrator:ERROR:Function <<remove_airline>> failed. Admin <<1>>. Airline is not registered
+2022-04-16 13:16:11,719:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:11,745:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:11,751:facade_administrator:INFO:Adding a new customer approved <<5>>. Admin <<1>>
+2022-04-16 13:16:11,758:facade_administrator:INFO:Removing customer <<5>> approved. Admin <<1>>
+2022-04-16 13:16:12,497:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:12,516:facade_administrator:ERROR:Function <<remove_customer>> failed. Admin <<1>>. The customer is not registered
+2022-04-16 13:16:13,500:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:13,513:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:13,520:facade_airline:INFO:The airline ID <<1>> successfully used the function <get_my_flights>
+2022-04-16 13:16:14,325:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:14,334:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:14,356:facade_airline:INFO:The airline with ID<<1>> has been updated
+2022-04-16 13:16:15,100:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:15,110:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:15,127:facade_airline:INFO:The airline with ID<<1>> has been updated
+2022-04-16 13:16:15,871:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:15,884:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:15,903:facade_airline:ERROR:Function <<update_airline>> failed. Airline: 1000 is not registered in the system
+2022-04-16 13:16:16,778:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:16,787:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:16,810:facade_airline:INFO:InsufficientAccessRights for updating airline 
+<<Airline name: American Airlines>>
+        id: 2 
+        Country id: 2
+        User id: 12. The attempt to update another airline
+2022-04-16 13:16:17,583:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:17,592:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:17,620:facade_airline:INFO:The flight with ID<<6>> has been added
+2022-04-16 13:16:18,441:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:18,449:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:18,470:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. Invalid airports: destination_country_id == origin_country_id
+2022-04-16 13:16:19,258:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:19,266:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:19,280:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>.The flight duration is less than 1 hour
+2022-04-16 13:16:20,039:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:20,047:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:20,073:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. The flight duration is more than 12 hour
+2022-04-16 13:16:20,817:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:20,826:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:20,836:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. Invalid remaining tickets data
+2022-04-16 13:16:21,611:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:21,623:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:21,639:facade_airline:INFO:InsufficientAccessRights for adding flight by 
+<<Airline name: American Airlines>>
+        id: 2 
+        Country id: 2
+        User id: 12. The attempt to add a flight for another airline
+2022-04-16 13:16:22,489:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:22,497:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:22,513:facade_airline:INFO:The flight with ID<<6>> has been added
+2022-04-16 13:16:23,255:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:23,264:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:23,281:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. Invalid airports: destination_country_id == origin_country_id
+2022-04-16 13:16:24,033:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:24,041:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:24,061:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>.The flight duration is less than 1 hour
+2022-04-16 13:16:24,838:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:24,846:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:24,866:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. The flight duration is more than 12 hour
+2022-04-16 13:16:25,610:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:25,617:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:25,640:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. Invalid remaining tickets data
+2022-04-16 13:16:26,501:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:26,510:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:26,554:facade_airline:INFO:InsufficientAccessRights for updating flight 
+<<Airline name: American Airlines>>
+        id: 2 
+        Country id: 2
+        User id: 12. The attempt to update flight of another airline
+2022-04-16 13:16:27,314:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:27,322:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:27,334:facade_airline:INFO:The flight with ID<<1>> has been removed
+2022-04-16 13:16:28,103:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:28,113:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:28,124:facade_airline:INFO:InsufficientAccessRights for removing flight 
+<<Airline name: American Airlines>>
+        id: 2 
+        Country id: 2
+        User id: 12. The attempt to remove the flight of another airline
+2022-04-16 13:16:28,964:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:28,980:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:29,000:facade_customer:INFO:The customer with ID<<[
+<<Customer id=1 >> 
+        First name: Meyer 
+        Last name: Steiner 
+        Address: Test 
+        Phone number: 054-972-00-28 
+        Credit-card number: 1234 5679 2345 6789 
+        User id: 3]>> updated
+2022-04-16 13:16:29,804:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:29,814:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:29,832:facade_customer:INFO:The customer with ID<<[
+<<Customer id=1 >> 
+        First name: Meyer 
+        Last name: Steiner 
+        Address: Test 
+        Phone number: tests 
+        Credit-card number: 1234 5679 2345 6789 
+        User id: 3]>> updated
+2022-04-16 13:16:30,649:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:30,662:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:30,686:facade_customer:INFO:The customer with ID<<[
+<<Customer id=1 >> 
+        First name: Meyer 
+        Last name: Steiner 
+        Address: Test 
+        Phone number: 054-972-00-28 
+        Credit-card number: tests 
+        User id: 3]>> updated
+2022-04-16 13:16:31,997:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:32,006:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:32,019:facade_customer:ERROR:Function <<update_customer>> failed.The customer <<
+<<Customer id=1000>> 
+        First name: Test_name 
+        Last name: Test_surname 
+        Address: Test 
+        Phone number: 0000000 
+        Credit-card number: 12345 
+        User id: 3>> is not registered in the system
+2022-04-16 13:16:32,791:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:32,800:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:32,811:facade_customer:ERROR:InsufficientAccessRights for updating customer 
+<<Customer id=4>> 
+        First name: Mark 
+        Last name: Dayan 
+        Address: Israel, Haifa, st. Rotshild 14/22 
+        Phone number: 052-485-18-18 
+        Credit-card number: 4563 4123 8765 5436 
+        User id: 6
+2022-04-16 13:16:33,663:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:33,673:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:33,684:facade_customer:INFO:The  customer with ID<<1>> used the function get_my_ticket
+2022-04-16 13:16:34,505:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:34,514:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:34,521:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:16:34,531:facade_customer:INFO:The  customer with ID<<1>> removed ticket <<1>>
+2022-04-16 13:16:35,325:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:35,335:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:35,348:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:16:35,349:facade_customer:ERROR:Function <<remove_ticket>> failed. Customer <<1>>. TicketNotFoundException
+2022-04-16 13:16:36,086:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:36,099:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:36,107:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:16:36,112:facade_customer:ERROR:InsufficientAccessRights for removing ticket by customer 1
+2022-04-16 13:16:37,120:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:37,131:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:37,144:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:16:37,155:facade_customer:INFO:The customer with ID<<1>> added new ticket with ID <<6>>
+2022-04-16 13:16:37,932:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:37,941:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:37,955:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:16:37,957:facade_customer:ERROR:Function <<add_ticket>> failed. Customer <<1>>. NoMoreTicketsForFlightsException
+2022-04-16 13:16:38,727:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:38,737:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:38,759:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:16:38,764:facade_customer:ERROR:InsufficientAccessRights for adding ticket by customer 1
+2022-04-16 13:16:39,569:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:39,596:facade_anonymous:INFO:Login allowed. Administrator: ron_michael
+2022-04-16 13:16:40,378:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:40,398:facade_anonymous:ERROR:Invalid password: Ron567 for username: ron_michael
+2022-04-16 13:16:41,178:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:41,197:facade_anonymous:INFO:Login allowed. Administrator: rami_shaul
+2022-04-16 13:16:41,946:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:41,955:facade_anonymous:ERROR:Invalid password: Rami567 for username: rami_shaul
+2022-04-16 13:16:42,698:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:42,724:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:16:43,492:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:43,520:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:16:44,334:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:44,354:facade_anonymous:ERROR:Invalid password: Meyer12 for username: meyer_steiner
+2022-04-16 13:16:45,113:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:45,143:facade_anonymous:INFO:Login allowed. Customer: mahmud_abbas
+2022-04-16 13:16:45,893:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:45,914:facade_anonymous:ERROR:User with this name (abbas_mahmud) is not registered in the system
+2022-04-16 13:16:46,693:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:46,707:facade_anonymous:ERROR:User with this name (12345) is not registered in the system
+2022-04-16 13:16:47,491:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:47,510:facade_anonymous:ERROR:User with this name (name_user) is not registered in the system
+2022-04-16 13:16:48,254:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:48,280:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:16:48,286:facade_anonymous:INFO:Adding a new customer 
+<<Customer id=5>> 
+        First name: Test_name 
+        Last name: Test_surname 
+        Address: Test_address 
+        Phone number: 1234567789 
+        Credit-card number: 1111 2222 3333 2222 3333 
+        User id: 16 approved
+2022-04-16 13:16:49,109:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:49,129:facade_anonymous:ERROR:Invalid data: phone number
+2022-04-16 13:16:49,974:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:49,995:facade_anonymous:ERROR:Invalid data: credit card number
+2022-04-16 13:16:50,760:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:50,770:facade_anonymous:ERROR:Invalid user role: 
+<<User id: None>>
+        Username: test_user 
+        Password: 123456 
+        Email: test_address@mail.com 
+        User role: 2
+
+2022-04-16 13:16:51,696:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:51,717:facade_base:INFO:The function  <<get_all_flight>> successfully used
+2022-04-16 13:16:52,563:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:52,580:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:16:53,357:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:53,374:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:16:54,155:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:54,171:facade_base:INFO:The function  <<get_flights_by_parameters>> successfully used
+2022-04-16 13:16:55,019:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:55,037:facade_base:INFO:The function  <<get_flights_by_parameters>> successfully used
+2022-04-16 13:16:55,916:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:55,925:facade_base:INFO:The function  <<get_all_airlines>> successfully used
+2022-04-16 13:16:56,678:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:56,685:facade_base:INFO:The function  <<get_airline_by_id>> successfully used
+2022-04-16 13:16:57,446:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:57,464:facade_base:INFO:The function  <<get_airline_by_id>> successfully used
+2022-04-16 13:16:58,254:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:58,269:facade_base:ERROR:Function <<get_airline_by_id>> failed. Invalid data
+2022-04-16 13:16:59,014:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:59,033:facade_base:INFO:The function  <<get_airline_by_id>> successfully used
+2022-04-16 13:16:59,828:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:16:59,841:facade_base:INFO:The function  <<get_all_countries>> successfully used
+2022-04-16 13:17:00,828:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:17:00,849:facade_base:INFO:The function  <<get_country_by_id>> successfully used
+2022-04-16 13:17:01,697:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:17:01,716:facade_base:INFO:The function  <<get_country_by_id>> successfully used
+2022-04-16 13:17:02,493:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:17:02,510:facade_base:ERROR:Function <<get_country_by_id>> failed. Invalid data
+2022-04-16 13:17:03,265:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:17:03,273:facade_base:INFO:The function  <<get_country_by_id>> successfully used
+2022-04-16 13:17:04,050:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:17:04,074:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:17:04,841:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:17:04,860:facade_base:ERROR:Function <<create_user>> failed. PasswordTooShortException
+2022-04-16 13:17:04,864:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:17:04,866:facade_base:ERROR:Function <<create_user>> failed. UserAlreadyExistsException
+2022-04-16 13:21:01,193:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:01,270:facade_anonymous:INFO:Login allowed. Administrator: ron_michael
+2022-04-16 13:21:02,051:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:02,065:facade_administrator:INFO:The administrator <<1>> successfully used the function <<get_all_customer>>
+2022-04-16 13:21:02,896:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:02,910:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:02,915:facade_administrator:INFO:Adding a new administrator approved <<3>>. Admin <<1>>
+2022-04-16 13:21:03,675:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:03,692:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:03,697:facade_administrator:INFO:Adding a new administrator approved <<3>>. Admin <<1>>
+2022-04-16 13:21:03,697:facade_administrator:ERROR:Function <<add_administrator>> failed. Admin <<1>>. Invalid class Users
+2022-04-16 13:21:04,566:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:04,585:facade_administrator:ERROR:Function <<add_administrator>> failed. Admin <<1>>. Invalid class Administrators
+2022-04-16 13:21:05,391:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:05,406:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:05,411:facade_administrator:INFO:Adding a new airline approved <<test_air. Admin <<1>>
+2022-04-16 13:21:06,206:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:06,228:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:06,232:facade_administrator:INFO:Adding a new airline approved <<test_air. Admin <<1>>
+2022-04-16 13:21:06,234:facade_administrator:ERROR:Function <<add_airline>> failed. Admin <<1>>. The airline is already registered
+2022-04-16 13:21:07,013:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:07,024:facade_administrator:ERROR:Function <<add_airline>> failed. Admin <<1>>. Invalid country
+2022-04-16 13:21:07,757:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:07,773:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:07,778:facade_administrator:INFO:Adding a new customer approved <<5>>. Admin <<1>>
+2022-04-16 13:21:08,649:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:08,667:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:08,672:facade_administrator:INFO:Adding a new customer approved <<5>>. Admin <<1>>
+2022-04-16 13:21:08,674:facade_administrator:ERROR:Function <<add_customer>> failed. Admin <<1>>. Invalid credit card number
+2022-04-16 13:21:09,514:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:09,537:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:09,541:facade_administrator:INFO:Adding a new administrator approved <<3>>. Admin <<1>>
+2022-04-16 13:21:09,545:facade_administrator:INFO:Removing administrator <<3>> approved. Admin <<1>>
+2022-04-16 13:21:10,384:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:10,394:facade_administrator:ERROR:Function <<remove_administrator>> failed. Admin <<1>>. Administrator with this first name is not registered in the system
+2022-04-16 13:21:11,166:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:11,181:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:11,184:facade_administrator:INFO:Adding a new airline approved <<test_air. Admin <<1>>
+2022-04-16 13:21:11,187:facade_administrator:INFO:Removing airline <<6>> approved. Admin <<1>>
+2022-04-16 13:21:11,944:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:11,965:facade_administrator:ERROR:Function <<remove_airline>> failed. Admin <<1>>. Airline is not registered
+2022-04-16 13:21:11,967:facade_administrator:ERROR:Function <<remove_airline>> failed. Admin <<1>>. Airline is not registered
+2022-04-16 13:21:12,698:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:12,716:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:12,720:facade_administrator:INFO:Adding a new customer approved <<5>>. Admin <<1>>
+2022-04-16 13:21:12,726:facade_administrator:INFO:Removing customer <<5>> approved. Admin <<1>>
+2022-04-16 13:21:13,571:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:13,584:facade_administrator:ERROR:Function <<remove_customer>> failed. Admin <<1>>. The customer is not registered
+2022-04-16 13:21:14,474:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:14,485:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:14,499:facade_airline:INFO:The airline ID <<1>> successfully used the function <get_my_flights>
+2022-04-16 13:21:15,312:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:15,321:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:15,347:facade_airline:INFO:The airline with ID<<1>> has been updated
+2022-04-16 13:21:16,199:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:16,210:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:16,226:facade_airline:INFO:The airline with ID<<1>> has been updated
+2022-04-16 13:21:17,201:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:17,211:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:17,223:facade_airline:ERROR:Function <<update_airline>> failed. Airline: 1000 is not registered in the system
+2022-04-16 13:21:18,090:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:18,101:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:18,112:facade_airline:INFO:InsufficientAccessRights for updating airline 
+<<Airline name: American Airlines>>
+        id: 2 
+        Country id: 2
+        User id: 12. The attempt to update another airline
+2022-04-16 13:21:18,897:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:18,910:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:18,933:facade_airline:INFO:The flight with ID<<6>> has been added
+2022-04-16 13:21:19,840:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:19,852:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:19,864:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. Invalid airports: destination_country_id == origin_country_id
+2022-04-16 13:21:21,391:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:21,401:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:21,413:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>.The flight duration is less than 1 hour
+2022-04-16 13:21:22,149:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:22,158:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:22,172:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. The flight duration is more than 12 hour
+2022-04-16 13:21:22,911:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:22,920:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:22,932:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. Invalid remaining tickets data
+2022-04-16 13:21:23,758:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:23,768:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:23,779:facade_airline:INFO:InsufficientAccessRights for adding flight by 
+<<Airline name: American Airlines>>
+        id: 2 
+        Country id: 2
+        User id: 12. The attempt to add a flight for another airline
+2022-04-16 13:21:24,566:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:24,575:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:24,608:facade_airline:INFO:The flight with ID<<6>> has been added
+2022-04-16 13:21:25,426:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:25,442:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:25,471:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. Invalid airports: destination_country_id == origin_country_id
+2022-04-16 13:21:26,267:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:26,283:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:26,307:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>.The flight duration is less than 1 hour
+2022-04-16 13:21:27,159:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:27,168:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:27,190:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. The flight duration is more than 12 hour
+2022-04-16 13:21:27,942:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:27,952:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:27,969:facade_airline:ERROR:Function <<add_flight>> failed. Airline <<1>>. Invalid remaining tickets data
+2022-04-16 13:21:28,715:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:28,724:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:28,770:facade_airline:INFO:InsufficientAccessRights for updating flight 
+<<Airline name: American Airlines>>
+        id: 2 
+        Country id: 2
+        User id: 12. The attempt to update flight of another airline
+2022-04-16 13:21:29,520:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:29,529:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:29,550:facade_airline:INFO:The flight with ID<<1>> has been removed
+2022-04-16 13:21:30,410:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:30,420:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:30,438:facade_airline:INFO:InsufficientAccessRights for removing flight 
+<<Airline name: American Airlines>>
+        id: 2 
+        Country id: 2
+        User id: 12. The attempt to remove the flight of another airline
+2022-04-16 13:21:31,278:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:31,289:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:31,311:facade_customer:INFO:The customer with ID<<[
+<<Customer id=1 >> 
+        First name: Meyer 
+        Last name: Steiner 
+        Address: Test 
+        Phone number: 054-972-00-28 
+        Credit-card number: 1234 5679 2345 6789 
+        User id: 3]>> updated
+2022-04-16 13:21:32,078:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:32,088:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:32,106:facade_customer:INFO:The customer with ID<<[
+<<Customer id=1 >> 
+        First name: Meyer 
+        Last name: Steiner 
+        Address: Test 
+        Phone number: tests 
+        Credit-card number: 1234 5679 2345 6789 
+        User id: 3]>> updated
+2022-04-16 13:21:32,954:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:32,963:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:32,992:facade_customer:INFO:The customer with ID<<[
+<<Customer id=1 >> 
+        First name: Meyer 
+        Last name: Steiner 
+        Address: Test 
+        Phone number: 054-972-00-28 
+        Credit-card number: tests 
+        User id: 3]>> updated
+2022-04-16 13:21:33,747:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:33,757:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:33,773:facade_customer:ERROR:Function <<update_customer>> failed.The customer <<
+<<Customer id=1000>> 
+        First name: Test_name 
+        Last name: Test_surname 
+        Address: Test 
+        Phone number: 0000000 
+        Credit-card number: 12345 
+        User id: 3>> is not registered in the system
+2022-04-16 13:21:34,533:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:34,544:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:34,556:facade_customer:ERROR:InsufficientAccessRights for updating customer 
+<<Customer id=4>> 
+        First name: Mark 
+        Last name: Dayan 
+        Address: Israel, Haifa, st. Rotshild 14/22 
+        Phone number: 052-485-18-18 
+        Credit-card number: 4563 4123 8765 5436 
+        User id: 6
+2022-04-16 13:21:35,367:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:35,376:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:35,396:facade_customer:INFO:The  customer with ID<<1>> used the function get_my_ticket
+2022-04-16 13:21:36,215:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:36,226:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:36,234:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:21:36,244:facade_customer:INFO:The  customer with ID<<1>> removed ticket <<1>>
+2022-04-16 13:21:37,043:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:37,053:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:37,072:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:21:37,073:facade_customer:ERROR:Function <<remove_ticket>> failed. Customer <<1>>. TicketNotFoundException
+2022-04-16 13:21:37,850:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:37,859:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:37,878:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:21:37,882:facade_customer:ERROR:InsufficientAccessRights for removing ticket by customer 1
+2022-04-16 13:21:38,660:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:38,669:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:38,687:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:21:38,698:facade_customer:INFO:The customer with ID<<1>> added new ticket with ID <<6>>
+2022-04-16 13:21:39,470:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:39,480:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:39,494:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:21:39,497:facade_customer:ERROR:Function <<add_ticket>> failed. Customer <<1>>. NoMoreTicketsForFlightsException
+2022-04-16 13:21:40,389:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:40,400:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:40,413:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:21:40,416:facade_customer:ERROR:InsufficientAccessRights for adding ticket by customer 1
+2022-04-16 13:21:41,454:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:41,481:facade_anonymous:INFO:Login allowed. Administrator: ron_michael
+2022-04-16 13:21:42,267:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:42,280:facade_anonymous:ERROR:Invalid password: Ron567 for username: ron_michael
+2022-04-16 13:21:43,187:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:43,214:facade_anonymous:INFO:Login allowed. Administrator: rami_shaul
+2022-04-16 13:21:43,993:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:44,003:facade_anonymous:ERROR:Invalid password: Rami567 for username: rami_shaul
+2022-04-16 13:21:44,782:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:44,797:facade_anonymous:INFO:Login allowed. Airline: el_al
+2022-04-16 13:21:45,564:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:45,593:facade_anonymous:INFO:Login allowed. Customer: meyer_steiner
+2022-04-16 13:21:46,456:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:46,465:facade_anonymous:ERROR:Invalid password: Meyer12 for username: meyer_steiner
+2022-04-16 13:21:47,267:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:47,287:facade_anonymous:INFO:Login allowed. Customer: mahmud_abbas
+2022-04-16 13:21:48,073:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:48,084:facade_anonymous:ERROR:User with this name (abbas_mahmud) is not registered in the system
+2022-04-16 13:21:48,922:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:48,929:facade_anonymous:ERROR:User with this name (12345) is not registered in the system
+2022-04-16 13:21:49,827:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:49,844:facade_anonymous:ERROR:User with this name (name_user) is not registered in the system
+2022-04-16 13:21:50,619:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:50,643:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:21:50,649:facade_anonymous:INFO:Adding a new customer 
+<<Customer id=5>> 
+        First name: Test_name 
+        Last name: Test_surname 
+        Address: Test_address 
+        Phone number: 1234567789 
+        Credit-card number: 1111 2222 3333 2222 3333 
+        User id: 16 approved
+2022-04-16 13:21:51,505:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:51,525:facade_anonymous:ERROR:Invalid data: phone number
+2022-04-16 13:21:52,291:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:52,302:facade_anonymous:ERROR:Invalid data: credit card number
+2022-04-16 13:21:53,077:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:53,089:facade_anonymous:ERROR:Invalid user role: 
+<<User id: None>>
+        Username: test_user 
+        Password: 123456 
+        Email: test_address@mail.com 
+        User role: 2
+
+2022-04-16 13:21:53,900:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:53,921:facade_base:INFO:The function  <<get_all_flight>> successfully used
+2022-04-16 13:21:54,799:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:54,820:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:21:55,620:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:55,628:facade_base:INFO:The function  <<get_flight_by_id>> successfully used
+2022-04-16 13:21:56,413:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:56,423:facade_base:INFO:The function  <<get_flights_by_parameters>> successfully used
+2022-04-16 13:21:57,228:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:57,246:facade_base:INFO:The function  <<get_flights_by_parameters>> successfully used
+2022-04-16 13:21:58,111:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:58,123:facade_base:INFO:The function  <<get_all_airlines>> successfully used
+2022-04-16 13:21:59,007:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:59,025:facade_base:INFO:The function  <<get_airline_by_id>> successfully used
+2022-04-16 13:21:59,944:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:21:59,960:facade_base:INFO:The function  <<get_airline_by_id>> successfully used
+2022-04-16 13:22:00,764:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:00,770:facade_base:ERROR:Function <<get_airline_by_id>> failed. Invalid data
+2022-04-16 13:22:01,649:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:01,663:facade_base:INFO:The function  <<get_airline_by_id>> successfully used
+2022-04-16 13:22:02,484:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:02,497:facade_base:INFO:The function  <<get_all_countries>> successfully used
+2022-04-16 13:22:03,294:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:03,304:facade_base:INFO:The function  <<get_country_by_id>> successfully used
+2022-04-16 13:22:04,116:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:04,129:facade_base:INFO:The function  <<get_country_by_id>> successfully used
+2022-04-16 13:22:05,221:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:05,241:facade_base:ERROR:Function <<get_country_by_id>> failed. Invalid data
+2022-04-16 13:22:06,207:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:06,221:facade_base:INFO:The function  <<get_country_by_id>> successfully used
+2022-04-16 13:22:07,083:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:07,097:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:22:07,885:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-04-16 13:22:07,902:facade_base:ERROR:Function <<create_user>> failed. PasswordTooShortException
+2022-04-16 13:22:07,908:facade_base:INFO:The new user has been successfully created
+2022-04-16 13:22:07,911:facade_base:ERROR:Function <<create_user>> failed. UserAlreadyExistsException
