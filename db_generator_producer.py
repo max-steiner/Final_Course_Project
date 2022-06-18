@@ -11,7 +11,6 @@ from db_management.db_repo import DbRepo
 from db_management.db_config import local_session, config
 from db_management.db_data_object import DbDataObject
 from db_management.db_rabbit_producer import DbRabbitProducer
-from db_management.refresh_db import refresh_db
 
 
 class myThread(threading.Thread):
@@ -27,7 +26,7 @@ class myThread(threading.Thread):
         print('Data Imported')
 
 
-class MyWidget(Widget):
+class FlightWidget(Widget):
     progress_bar = ObjectProperty()
     airline_companies = ObjectProperty(None)
     customers = ObjectProperty(None)
@@ -37,14 +36,15 @@ class MyWidget(Widget):
     repo = DbRepo(local_session)
 
     def __init__(self, **kwa):
-        super(MyWidget, self).__init__(**kwa)
+        super(FlightWidget, self).__init__(**kwa)
         self.progress_bar = ProgressBar()
         self.popup = Popup(title='Importing' if self.ids.rbutton2.state == 'normal' else 'Refreshing DB',
                            content=self.progress_bar)
         self.popup.bind(on_open=self.puopen)
 
     def pop(self):
-        if self.ids.rbutton2.state == 'down': self.reset_db()
+        if self.ids.rbutton2.state == 'down':
+            self.refresh_db()
         try:
             data_object = DbDataObject(customers=int(self.customers.text),
                                        airlines=int(self.airline_companies.text),
@@ -52,16 +52,16 @@ class MyWidget(Widget):
                                        tickets_per_customer=int(self.tickets_per_customer.text))
             data_object.validate()
             self.rabbit_producer.publish(json.dumps(data_object.__dict__()))
-            print("Airline Companies:", self.airline_companies.text,
+            print("Airline companies:", self.airline_companies.text,
                   ", Customers:", self.customers.text,
-                  ", Flights Per Company:", self.flights_per_company.text,
-                  ", Tickets Per Customer:", self.tickets_per_customer.text)
+                  ", Flights per company:", self.flights_per_company.text,
+                  ", Tickets per customer:", self.tickets_per_customer.text)
         except:
-            return "Invalid Input"
+            return "Invalid input"
         self.progress_bar.value = 0
         self.popup.open()
 
-    def puopen(self, instance):
+    def puopen(self):
         t1 = myThread(self.progress_bar)
         t1.start()
 
@@ -78,8 +78,9 @@ Builder.load_file(config['db']['kv_file'])
 
 
 class MyApp(App):
-    def build(self): return MyWidget()
+    def build(self):
+        return FlightWidget()
 
 
-if __name__ in ("__main__"):
+if __name__ in "__main__":
     MyApp().run()

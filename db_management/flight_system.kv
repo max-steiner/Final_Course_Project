@@ -1,8 +1,21 @@
-<MyWidget>:
+<FlightWidget>:
     airline_companies: airline_companies
     customers: customers
     flights_per_company: flights_per_company
     tickets_per_customer: tickets_per_customer
+
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+        TextInput:
+            id:input
+            text:'Max Steiner Flight System'
+            halign:"left"
+            multiline: False
+            background_color:(0,0,139)
+            font_size:30
+            size_hint:(2, 2.8)
 
     GridLayout:
         cols:1
@@ -13,12 +26,12 @@
             cols:2
 
         Label:
-            text: "Airline Companies: "
+            text: "Airline:"
         TextInput:
             id: airline_companies
             multinline:False
         Label:
-            text: "Customers: "
+            text: "Customer: "
         TextInput:
             id: customers
             multiline:False
@@ -34,7 +47,7 @@
             multinline:False
 
         Label:
-            text: "Add to date base: "
+            text: "Add to database: "
         CheckBox:
             id: rbutton1
             group: 'radio button'
@@ -42,7 +55,7 @@
             on_press: root.switchstate1()
 
         Label:
-            text: "Refresh DB: "
+            text: "Refresh database: "
         CheckBox:
             id: rbutton2
             group: 'radio button'
@@ -61,7 +74,7 @@
     background_normal: ''
     canvas.before:
         Color:
-            rgba: (0,0,128,1)
+            rgba: (157/255,157/255, 157/255, 1)
         RoundedRectangle:
             size: self.size
             pos: self.pos
