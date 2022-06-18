@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href={{ url_for('static', filename='my_appstyle.css') }}>
+</head>
+<body>
+<form action="/logout" method="get">
+    <div class="bgimg">
+    <div class="topleft">
+        <p style="color: yellow">Airlock - The App</p>
+    </div>
+    <div class="middle">
+        <h1 style="color: yellow">COMING SOON</h1>
+        <hr>
+        <p style="color: yellow">12/07/2022</p>
+        <p style="color: yellow">Welcome, {% print(session['uname']) %} </p>
+        <button type="submit">Logout</button>
+    </div>
+    <div class="bottomleft">
+        <p style="color: yellow">Boris Group LTD.</p>
+    </div>
+    </div>
+</form>
+</body>
+</html>

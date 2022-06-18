@@ -1,0 +1,68 @@
+<MyWidget>:
+    airline_companies: airline_companies
+    customers: customers
+    flights_per_company: flights_per_company
+    tickets_per_customer: tickets_per_customer
+
+    GridLayout:
+        cols:1
+        size: root.width-200, root.height-200
+        pos: 100, 150
+
+        GridLayout:
+            cols:2
+
+        Label:
+            text: "Airline Companies: "
+        TextInput:
+            id: airline_companies
+            multinline:False
+        Label:
+            text: "Customers: "
+        TextInput:
+            id: customers
+            multiline:False
+        Label:
+            text: "Flights per company: "
+        TextInput:
+            id: flights_per_company
+            multiline:False
+        Label:
+            text: "Tickets per customer: "
+        TextInput:
+            id: tickets_per_customer
+            multinline:False
+
+        Label:
+            text: "Add to date base: "
+        CheckBox:
+            id: rbutton1
+            group: 'radio button'
+            state: 'down'
+            on_press: root.switchstate1()
+
+        Label:
+            text: "Refresh DB: "
+        CheckBox:
+            id: rbutton2
+            group: 'radio button'
+            state: 'normal'
+            on_press: root.switchstate2()
+
+        RoundedButton:
+            text:"Add to Flight Systems"
+            size: root.width, 100
+            pos_hint: {'center_x': 0.5}
+            size_hint: (1, 2)
+            on_press: root.pop()
+
+<RoundedButton@Button>
+    background_color: (128,128,128,0)
+    background_normal: ''
+    canvas.before:
+        Color:
+            rgba: (0,0,128,1)
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [1]

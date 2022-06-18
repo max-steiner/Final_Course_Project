@@ -1,11 +1,21 @@
- kivy-deps.gstreamer==0.3.3
- kivy-deps.angle==0.3.1
- kivy-deps.glew==0.3.0
- kivy-deps.sdl2==0.3.1
- psychopg2==2.9.2
- pytest==6.2.5
- pygame==2.1.0
- kivy==2.0.0
- kivi-garden==0.1.4
- pygments==2.11.2
- sqlalchemy==1.4.27
+SQLAlchemy~=1.4.29
+psycopg2~=2.9.3
+pytest~=6.2.5
+Flask~=2.0.3
+Flask-RESTful==0.3.9
+flask-sqlalchemy==2.5.1
+requests~=2.27.1
+trio~=0.20.0
+httpx~=0.13.3
+Faker~=12.0.1
+pika~=1.2.0
+Kivy~=2.0.0
+kivi-garden~=0.1.4
+kivy-deps.gstreamer~=0.3.3
+kivy-deps.angle~=0.3.1
+kivy-deps.glew~=0.3.0
+kivy-deps.sdl2~=0.3.1
+pygame~=2.1.0
+pygments~=2.11.2
+PyJWT~=1.7.1
+Werkzeug~=2.0.3

@@ -554,3 +554,17 @@
 2022-04-16 13:22:07,902:facade_base:ERROR:Function <<create_user>> failed. PasswordTooShortException
 2022-04-16 13:22:07,908:facade_base:INFO:The new user has been successfully created
 2022-04-16 13:22:07,911:facade_base:ERROR:Function <<create_user>> failed. UserAlreadyExistsException
+2022-06-18 15:39:27,190:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:40:47,836:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:41:06,586:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:41:56,798:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:43:44,996:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:44:13,373:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:47:41,565:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:48:43,639:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:49:37,037:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:51:23,233:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:55:36,575:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:56:02,674:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 15:57:19,988:refresh_db:CRITICAL:The data base  has been successfully refreshed
+2022-06-18 16:03:35,576:refresh_db:CRITICAL:The data base  has been successfully refreshed
